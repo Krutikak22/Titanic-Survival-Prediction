@@ -5,7 +5,7 @@ import joblib
 import os
 
 # --- Load the trained model ---
-model_path = "model_rf.pkl"
+model_path = "random_forest.pkl"
 
 if os.path.exists(model_path):
     model = joblib.load(model_path)
