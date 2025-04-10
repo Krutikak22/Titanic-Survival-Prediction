@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="Titanic Survival Predictor", layout="centered", page_icon="🚢")
 
 # --- Load the trained model from .pkl file ---
-model_path = "random_forest.pkl"
+model_path = "random_forest2.pkl"
 
 try:
     model = joblib.load(model_path)
