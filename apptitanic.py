@@ -8,14 +8,11 @@ from streamlit_lottie import st_lottie
 # --- Streamlit Page Config ---
 st.set_page_config(page_title="Titanic Survival Predictor", layout="centered", page_icon="🚢")
 
-# --- Oceanic Background Styling ---
+# --- Clean Styling Without GIF Background ---
 st.markdown("""
     <style>
         .stApp {
-            background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTkydnMxenFxYzY0NzdxaTQ5Zm16dHU0cTI1cGw4bTh0dWFrOGN2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ggzvtUc2KqzqwgWicn/giphy.gif");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-color: #f0f2f6;
         }
 
         .block-container {
